@@ -1,0 +1,125 @@
+/*
+ * @Author: goupeng 2953854684@qq.com
+ * @Date: 2023-10-13 20:18:16
+ * @LastEditors: goupeng 2953854684@qq.com
+ * @LastEditTime: 2023-10-15 22:56:35
+ * @FilePath: \project2\my-app\src\pages\register\style.module.scss
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ */
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 812px;
+    width: 750px;
+
+    .centerBox {
+        margin-top: 96px;
+        display: flex;
+        width: 100%;
+
+        .title {
+            width: 100%;
+            text-align: center;
+            font-size: 32px;
+            line-height: 32px;
+            font-weight: 500;
+            color: #3D3D3D;
+        }
+    }
+
+    .iconImg {
+        margin-right: 34px;
+        width: 15px;
+        height: 29px;
+    }
+
+    .notice {
+        margin-top: 115px;
+        font-style: 32px;
+        line-height: 32px;
+        text-align: center;
+        color: #202020;
+    }
+
+    .email {
+        margin-top: 88px;
+        margin-left: 70px;
+        width: 591px;
+        font-size: 32px;
+        line-height: 32px;
+        text-align: right;
+        border: 0;
+        outline: none;
+        color: #D8D8D8;
+    }
+
+    .captcha {
+        margin-left: 78px;
+        margin-top: 22px;
+
+        display: flex;
+        width: 591px;
+        height: 118px;
+        border-top: 1px solid #D8D8D8;
+        border-bottom: 1px solid #D8D8D8;
+
+        .words {
+            margin-top: 24px;
+            font-size: 32px;
+            width: 399px;
+            line-height: 32px;
+            font-weight: 400;
+            color: #5289E3;
+
+            .time {
+                margin-bottom: 8px;
+            }
+        }
+
+        .number {
+            color: #D8D8D8;
+            margin-top: 64px;
+            margin-bottom: 22px;
+            border: 0;
+            width: 192px;
+            height: 32px;
+            font-size: 32px;
+            text-align: right;
+            outline: none;
+        }
+    }
+
+    .agree {
+        display: flex;
+        justify-content: center;
+        margin-top: 123px;
+        font-size: 28px;
+
+        .userAgt {
+            color: #5289E3;
+        }
+
+        .privacyAgt {
+            color: #5289E3;
+        }
+
+        .checkbox {
+            width: 28px;
+            height: 28px;
+        }
+    }
+
+    .loginBtn {
+        margin-top: 31px;
+        margin-left: 35px;
+        width: 680px;
+        height: 100px;
+        padding: 30px 300px;
+        line-height: 40px;
+        font-size: 40px;
+        color: #ffffff;
+        border-radius: 495px;
+        background: rgba(82, 137, 227, 0.45);
+        box-sizing: border-box;
+    }
+}

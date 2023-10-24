@@ -1,0 +1,88 @@
+.main {
+    .header {
+        margin-top: 234px;
+        margin-left: 552px;
+        height: 56px;
+        font-size: 62px;
+        line-height: 56px;
+    }
+
+    .email {
+        margin-top: 88px;
+        margin-left: 85px;
+        width: 591px;
+        font-size: 32px;
+        line-height: 32px;
+        text-align: right;
+        border: 0px;
+        outline: none;
+        border-bottom: 1px solid;
+        color: #D8D8D8;
+    }
+
+    .password {
+        margin-top: 66px;
+        margin-left: 85px;
+        width: 591px;
+        font-size: 32px;
+        line-height: 32px;
+        text-align: right;
+        border: 0px;
+        outline: none;
+        border-bottom: 1px solid;
+        color: #D8D8D8;
+    }
+
+    .rec {
+        margin-top: 16px;
+        margin-left: 86px;
+        font-size: 28px;
+        line-height: 28px;
+        color: #AAACB2;
+    }
+
+    .agree {
+        display: flex;
+        justify-content: center;
+        margin-top: 123px;
+        font-size: 28px;
+
+        .userAgt {
+            color: #5289E3;
+        }
+
+        .privacyAgt {
+            color: #5289E3;
+        }
+
+        .checkbox {
+            width: 28px;
+            height: 28px;
+        }
+    }
+
+    .loginBtn {
+        margin-top: 31px;
+        margin-left: 35px;
+        width: 680px;
+        height: 100px;
+        padding: 30px 300px;
+        line-height: 40px;
+        font-size: 40px;
+        color: #ffffff;
+        border-radius: 495px;
+        background: rgba(82, 137, 227, 0.45);
+        box-sizing: border-box;
+    }
+
+    .register {
+        margin-top: 70px;
+        margin-left: 249px;
+        font-style: 28px;
+        line-height: 32px;
+
+        .registerJp {
+            color: #5289E3;
+        }
+    }
+}

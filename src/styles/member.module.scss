@@ -1,10 +1,89 @@
 .member {
-    position: relative;
-    padding-bottom: 27px;
+    // padding-bottom: 27px;
+    display: flex;
+    flex-direction: column;
 
     .header {
+        position: relative;
         width: 100%;
         height: 435px;
-        background-color: blue;
+        // background-image: url(../../public/images/member/juxing.png);
+        background: linear-gradient(5deg, #014FC9 6%, #6598E8 79%);
+        padding: 200px 0 128px 23px;
+        box-sizing: border-box;
+        z-index: 0;
+
+        .profile {
+            // left: 369px;
+            right: 0;
+            bottom: 0;
+            margin-bottom: 26px;
+            // top: 66px;
+            width: 348px;
+            height: 343px;
+            background-image: url(../../public/images/login/applogo.png);
+            position: absolute;
+            background-size: contain;
+        }
+
+        .log {
+            white-space: nowrap;
+            width: 360px;
+            height: 80px;
+            border-radius: 16px;
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(16px);
+
+            font-size: 32px;
+            font-weight: normal;
+            line-height: normal;
+            color: #ffffff;
+
+            padding: 17px 110px;
+            box-sizing: border-box;
+            text-align: center;
+            margin-right: 17px;
+            // position: absolute;
+
+
+        }
+    }
+
+    .nav {
+        display: flex;
+        // justify-content: space-around;
+        width: 750px;
+        height: 176px;
+        margin-top: -26px;
+        background-color: #fff;
+        z-index: 1;
+        border-radius: 16px;
+        position: relative;
+
+        .line {
+            border: 2px solid #5289E3;
+            position: absolute;
+            bottom: 24px;
+            width: 0px;
+            height: 24px;
+            background-color: #5289E3;
+
+        }
+
+        .jumpBox {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            width: 250px;
+            height: 176px;
+            text-align: center;
+
+            .myList {
+                display: flex;
+                align-self: center;
+                width: 80px;
+                height: 72px;
+            }
+        }
     }
 }
